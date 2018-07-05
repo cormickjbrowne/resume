@@ -1,0 +1,135 @@
+<resume>
+    <name>
+        <first value="Cormick"/>
+        <last value="Browne"/>
+    </name>
+    <email value="cormickjbrowne@gmail.com"/>
+    <phone>
+        <country-code value="1"/>
+        <number value="5185451955"/>
+    </phone>
+    <education>
+        <school>
+            <name value="Boston University"/>
+            <location
+                city="Boston"
+                state="Massachusetts"
+            />
+            <graduation-date
+                month="May"
+                year="2013"
+            />
+            <degree value="Bachelors of Arts"/>
+            <major value="Economics"/>
+        </school>
+    </education>
+    <work-experience>
+        <job>
+            <company>
+                <name value="1stdibs, Inc."/>
+                <location
+                    city="New York"
+                    state="New York"
+                />
+            </company>
+            <role value="Frontend Developer"/>
+            <duration>
+                <start-date
+                    month="June"
+                    year="2016"
+                />
+                <end-date present="true"/>
+            </duration>
+            <notes>
+                <note>Built and developed several Single Page Apps built with React, Redux, Relay</note>
+                <note>Added/extended queries and mutations to GraphQL server</note>
+                <note>Setup webpack for new apps with SASS, Babel, Flow, React Storybook, etc</note>
+                <note>Migrated old apps from Backbone and JQuery to stack listed above</note>
+                <note>Implemented server­side rendering for apps with Redux and Relay</note>
+                <note>Maintained local nginx in docker container to route service requests in development</note>
+                <note>Managed several other apps including an inventory management system, a content management system, an analytics platform, pages with SalesForce integrations, and parts of our customer facing website</note>
+            </notes>
+        </job> 
+        <job>
+            <company>
+                <name value="Madison Plus Select Inc."/>
+                <location
+                    city="New York"
+                    state="New York"
+                />
+            </company>
+            <role value="Director of Operations/Web Developer"/>
+            <duration>
+                <start-date
+                    month="July"
+                    year="2014"
+                />
+                <end-date
+                    month="June"
+                    year="2016"
+                />
+            </duration>
+            <notes>
+                <note>Created a monolithic app with Node, Postgres and Sequelize to sync inventory across multiple data sources</note>
+                <note>Developed tools to allow internal users to manage purchasing and product merchandising</note>
+                <note>Developed and maintained customer facing website</note>
+                <note>Setup CI pipeline to allow simultaneous development/deployment</note>
+                <note>Consolidated data to run analyses on Customer Acquisition Costs and Ad Spend</note>
+            </notes>
+        </job>
+        <job>
+            <company>
+                <name value="Paytronix Systems Inc."/>
+                <location
+                    city="Boston"
+                    state="Massachusetts"
+                />
+            </company>
+            <role value="Account/Project Manager"/>
+            <duration>
+                <start-date
+                    month="April"
+                    year="2013"
+                />
+                <end-date
+                    month="July"
+                    year="2014"
+                />
+            </duration>
+            <notes>
+                <note>Configured and deployed client and server­side software for large restaurants chains including Panera Bread and Red Mango</note>
+                <note>Developed understanding of networking through hours of debugging LAN and Firewall issues</note>
+                <note>Managed projects working directly with directors and executives to design and deliver technical solutions to marketing and financial business requirements</note>
+                <note>Spearheaded software training working with corporate and franchise branch owners</note>
+            </notes>
+        </job>
+    </work-experience>
+    <technical-experience>
+        <languages>
+            <language value="Javascript"/>
+            <language value="Node"/>
+            <language value="GraphQL"/>
+            <language value="HTML"/>
+            <language value="CSS"/>
+            <language value="SASS"/>
+            <language value="SQL"/>
+            <language value="Git"/>
+            <language value="BASH"/>
+        </languages>
+        <libraries>
+            <library value="React"/>
+            <library value="Redux"/>
+            <library value="Relay"/>
+            <library value="Backbone"/>
+            <library value="JQuery"/>
+            <library value="Express"/>
+            <library value="Bootstrap"/>
+        </libraries>
+        <dev-tools>
+            <dev-tool value="Webpack"/>
+            <dev-tool value="Flow"/>
+            <dev-tool value="Babel"/>
+            <dev-tool value="Grunt"/>
+        </dev-tools>
+    </technical-experience>
+</resume>
