@@ -101,6 +101,79 @@
 														</fo:table-body>
 												</fo:table>
 										</xsl:for-each>
+										<fo:block>TECHNICAL SKILLS</fo:block>
+										<fo:table>
+												<fo:table-body>
+														<xsl:for-each select="resume/technical-skills/skill-set">
+																<fo:table-row>
+																		<fo:table-cell>
+																				<fo:block>
+																						<fo:inline>
+																								<xsl:value-of select="type"/>
+																						</fo:inline>
+																						<fo:inline>:</fo:inline>
+																				</fo:block>
+																		</fo:table-cell>
+																		<fo:table-cell>
+																				<fo:block>
+																						<xsl:for-each select="list/list-item">
+																								<fo:inline>
+																										<xsl:value-of select="value"/>
+																								</fo:inline>
+																								<fo:inline>, </fo:inline>
+																						</xsl:for-each>
+																				</fo:block>
+																		</fo:table-cell>
+																</fo:table-row>
+														</xsl:for-each>
+												</fo:table-body>
+										</fo:table>
+										<fo:block>EDUCATION</fo:block>
+										<fo:table>
+												<fo:table-body>
+														<fo:table-row>
+																<fo:table-cell number-columns-spanned="2">
+																		<fo:block>
+																				<fo:inline>
+																						<xsl:value-of select="resume/education/school/name"/>
+																				</fo:inline>
+																				<fo:inline>, </fo:inline>
+																				<fo:inline>
+																						<xsl:value-of select="resume/education/school/location/city"/>
+																				</fo:inline>
+																				<fo:inline>, </fo:inline>
+																				<fo:inline>
+																						<xsl:value-of select="resume/education/school/location/state"/>
+																				</fo:inline>
+																		</fo:block>
+																</fo:table-cell>
+														</fo:table-row>
+														<fo:table-row>
+																<fo:table-cell>
+																		<fo:block>
+																				<fo:inline>
+																						<xsl:value-of select="resume/education/school/degree"/>
+																				</fo:inline>
+																		<fo:inline> in </fo:inline>
+																		<fo:inline>
+																						<xsl:value-of select="resume/education/school/major"/>
+																				</fo:inline>
+																		</fo:block>
+																</fo:table-cell>
+																<fo:table-cell>
+																		<fo:block>
+																				<fo:inline>
+																						<xsl:value-of select="resume/education/school/graduation-date/month"/>
+																				</fo:inline>
+																				<fo:inline>&#160;</fo:inline>
+																				<fo:inline>
+																						<xsl:value-of select="resume/education/school/graduation-date/year"/>
+																				</fo:inline>
+																		</fo:block>
+																</fo:table-cell>
+														</fo:table-row>
+												</fo:table-body>
+										</fo:table>
 								</fo:flow>
 						</fo:page-sequence>
 				</fo:root>
