@@ -1,44 +1,43 @@
 <resume>
     <name>
-        <first value="Cormick"/>
-        <last value="Browne"/>
+				<first>Cormick</first>
+				<last>Browne</last>
     </name>
-    <email value="cormickjbrowne@gmail.com"/>
+		<email>cormickjbrowne@gmail.com</email>
     <phone>
-        <country-code value="1"/>
-        <number value="5185451955"/>
+				<country-code>1</country-code>
+				<number>5185451955</number>
     </phone>
     <education>
         <school>
-            <name value="Boston University"/>
-            <location
-                city="Boston"
-                state="Massachusetts"
-            />
-            <graduation-date
-                month="May"
-                year="2013"
-            />
-            <degree value="Bachelors of Arts"/>
-            <major value="Economics"/>
+						<name>Boston University</name>
+						<location>
+								<city>Boston</city>
+								<state>Massachusetts</state>
+						</location>
+						<graduation-date>
+								<month>May</month>
+								<year>2013</year>
+						</graduation-date>
+						<degree>Bachelors of Arts</degree>
+						<major>Economics</major>
         </school>
     </education>
     <work-experience>
         <job>
             <company>
-                <name value="1stdibs, Inc."/>
-                <location
-                    city="New York"
-                    state="New York"
-                />
+								<name>1stdibs, Inc.</name>
+								<location>
+										<city>New York</city>
+										<state>New York</state>
+								</location>
             </company>
-            <role value="Frontend Developer"/>
+						<role>Frontend Developer</role>
             <duration>
-                <start-date
-                    month="June"
-                    year="2016"
-                />
-                <end-date present="true"/>
+								<start-date>
+										<month>June</month>
+										<year>2016</year>
+								</start-date>
             </duration>
             <notes>
                 <note>Built and developed several Single Page Apps built with React, Redux, Relay</note>
@@ -52,22 +51,22 @@
         </job> 
         <job>
             <company>
-                <name value="Madison Plus Select Inc."/>
-                <location
-                    city="New York"
-                    state="New York"
-                />
+								<name>Madison Plus Select Inc.</name>
+								<location>
+										<city>New York</city>
+										<state>New York</state>
+								</location>
             </company>
-            <role value="Director of Operations/Web Developer"/>
+						<role>Director of Operations/Web Developer</role>
             <duration>
-                <start-date
-                    month="July"
-                    year="2014"
-                />
-                <end-date
-                    month="June"
-                    year="2016"
-                />
+								<start-date>
+										<month>July</month>
+										<year>2014</year>
+								</start-date>
+								<end-date>
+										<month>June</month>
+										<year>2016</year>
+								</end-date>
             </duration>
             <notes>
                 <note>Created a monolithic app with Node, Postgres and Sequelize to sync inventory across multiple data sources</note>
@@ -79,22 +78,22 @@
         </job>
         <job>
             <company>
-                <name value="Paytronix Systems Inc."/>
-                <location
-                    city="Boston"
-                    state="Massachusetts"
-                />
+                <name>Paytronix Systems Inc.</name>
+								<location>
+										<city>Boston</city>
+										<state>Massachusetts</state>
+								</location>
             </company>
-            <role value="Account/Project Manager"/>
+            <role>Account/Project Manager</role>
             <duration>
-                <start-date
-                    month="April"
-                    year="2013"
-                />
-                <end-date
-                    month="July"
-                    year="2014"
-                />
+								<start-date>
+										<month>April</month>
+										<year>2013</year>
+								</start-date>
+								<end-date>
+										<month>July</month>
+										<year>2014</year>
+								</end-date>
             </duration>
             <notes>
                 <note>Configured and deployed client and server­side software for large restaurants chains including Panera Bread and Red Mango</note>
@@ -106,30 +105,30 @@
     </work-experience>
     <technical-experience>
         <languages>
-            <language value="Javascript"/>
-            <language value="Node"/>
-            <language value="GraphQL"/>
-            <language value="HTML"/>
-            <language value="CSS"/>
-            <language value="SASS"/>
-            <language value="SQL"/>
-            <language value="Git"/>
-            <language value="BASH"/>
+						<language>Javascript</language>
+            <language>Node</language>
+						<language>GraphQL</language>
+						<language>HTML</language>
+						<language>CSS</language>
+						<language>SASS</language>
+						<language>SQL</language>
+						<language>Git</language>
+						<language>BASH</language>
         </languages>
         <libraries>
-            <library value="React"/>
-            <library value="Redux"/>
-            <library value="Relay"/>
-            <library value="Backbone"/>
-            <library value="JQuery"/>
-            <library value="Express"/>
-            <library value="Bootstrap"/>
+            <library>React</library>
+						<library>Redux</library>
+						<library>Relay</library>
+						<library>Backbone</library>
+						<library>JQuery</library>
+						<library>Express</library>
+						<library>Bootstrap</library>
         </libraries>
         <dev-tools>
-            <dev-tool value="Webpack"/>
-            <dev-tool value="Flow"/>
-            <dev-tool value="Babel"/>
-            <dev-tool value="Grunt"/>
+						<dev-tool>Webpack</dev-tool>
+            <dev-tool>Flow</dev-tool>
+            <dev-tool>Babel</dev-tool>
+            <dev-tool>Grunt</dev-tool>
         </dev-tools>
     </technical-experience>
 </resume>
