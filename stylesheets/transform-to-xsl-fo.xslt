@@ -14,10 +14,93 @@
 						</fo:layout-master-set>
 						<fo:page-sequence master-reference="all-pages-sequence-master">
 								<fo:flow flow-name="xsl-region-body">
-										<fo:block>
-												<xsl:value-of select="resume/name/first"/>
-												<xsl:value-of select="resume/name/last"/>
+										<fo:block text-align="center">
+												<fo:inline>
+														<xsl:value-of select="resume/name/first"/>
+												</fo:inline>
+												<fo:inline>&#160;</fo:inline>
+												<fo:inline>
+														<xsl:value-of select="resume/name/last"/>
+												</fo:inline>
 										</fo:block>
+										<fo:block text-align="center">
+												<fo:inline>
+														<xsl:value-of select="resume/email"/>
+												</fo:inline>
+												<fo:inline space-start="5px" space-end="5px">&#183;</fo:inline>
+												<fo:inline>
+														<xsl:value-of select="resume/phone/number"/>
+												</fo:inline>
+										</fo:block>
+										<fo:block>
+												<fo:inline>PROFILE</fo:inline>
+										</fo:block>
+										<fo:block>
+												<fo:inline>
+														<xsl:value-of select="resume/profile"/>
+												</fo:inline>
+										</fo:block>
+										<fo:block>
+												<fo:inline>PROFESSIONAL EXPERIENCE</fo:inline>
+										</fo:block>
+										<xsl:for-each select="resume/work-experience/job">
+												<fo:table>
+														<fo:table-body>
+																<fo:table-row>
+																		<fo:table-cell>
+																				<fo:block>
+																						<fo:inline>
+																								<xsl:value-of select="company/name"/>
+																						</fo:inline>
+																				</fo:block>
+																					<fo:block>
+																						<fo:inline>
+																								<xsl:value-of select="role"/>
+																						</fo:inline>
+																				</fo:block>
+																		</fo:table-cell>
+																		<fo:table-cell>
+																				<fo:block>
+																						<fo:inline>
+																								<xsl:value-of select="duration/start-date/month"/>
+																						</fo:inline>
+																						<fo:inline>&#160;</fo:inline>
+																						<fo:inline>
+																								<xsl:value-of select="duration/start-date/year"/>
+																						</fo:inline>
+																				</fo:block>
+																					<fo:block>
+																						<fo:inline>
+																								<xsl:value-of select="role"/>
+																						</fo:inline>
+																				</fo:block>
+																		</fo:table-cell>
+																</fo:table-row>
+																<fo:table-row>
+																		<fo:table-cell number-columns-spanned="2">
+																				<fo:list-block>
+																						<xsl:for-each select="notes/note">
+																								<fo:list-item>
+																										<fo:list-item-label start-indent="15px">
+																												<fo:block>
+																														<fo:inline>&#183;</fo:inline>
+																												</fo:block>
+																										</fo:list-item-label>
+																										<fo:list-item-body start-indent="25px">
+																												<fo:block>
+																														<fo:inline>
+																																<xsl:value-of select="text"/>
+																														</fo:inline>
+																												</fo:block>
+																										</fo:list-item-body>
+																								</fo:list-item>
+																						</xsl:for-each>
+																				</fo:list-block>
+																		</fo:table-cell>
+																</fo:table-row>
+														</fo:table-body>
+												</fo:table>
+										</xsl:for-each>
 								</fo:flow>
 						</fo:page-sequence>
 				</fo:root>

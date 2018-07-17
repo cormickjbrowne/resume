@@ -23,6 +23,8 @@
 						<major>Economics</major>
         </school>
     </education>
+		<profile>I’m a web developer with over four years experience working on ecommerce and loyalty applications. I know how to create apps and websites that are fast, responsive and SEO friendly. I’m looking for freelance, consulting or project based opportunities that will allow me to work
+remotely.</profile>
     <work-experience>
         <job>
             <company>
@@ -40,13 +42,27 @@
 								</start-date>
             </duration>
             <notes>
-                <note>Built and developed several Single Page Apps built with React, Redux, Relay</note>
-                <note>Added/extended queries and mutations to GraphQL server</note>
-                <note>Setup webpack for new apps with SASS, Babel, Flow, React Storybook, etc</note>
-                <note>Migrated old apps from Backbone and JQuery to stack listed above</note>
-                <note>Implemented server­side rendering for apps with Redux and Relay</note>
-                <note>Maintained local nginx in docker container to route service requests in development</note>
-                <note>Managed several other apps including an inventory management system, a content management system, an analytics platform, pages with SalesForce integrations, and parts of our customer facing website</note>
+								<note>
+										<text>Built and developed several Single Page Apps built with React, Redux, Relay</text>
+								</note>
+								<note>
+										<text>Added/extended queries and mutations to GraphQL server</text>
+								</note>
+								<note>
+										<text>Setup webpack for new apps with SASS, Babel, Flow, React Storybook, etc</text>
+								</note>
+								<note>
+										<text>Migrated old apps from Backbone and JQuery to stack listed above</text>
+								</note>
+								<note>
+										<text>Implemented server­side rendering for apps with Redux and Relay</text>
+								</note>
+								<note>
+										<text>Maintained local nginx in docker container to route service requests in development</text>
+								</note>
+								<note>
+										<text>Managed several other apps including an inventory management system, a content management system, an analytics platform, pages with SalesForce integrations, and parts of our customer facing website</text>
+								</note>
             </notes>
         </job> 
         <job>
@@ -69,11 +85,21 @@
 								</end-date>
             </duration>
             <notes>
-                <note>Created a monolithic app with Node, Postgres and Sequelize to sync inventory across multiple data sources</note>
-                <note>Developed tools to allow internal users to manage purchasing and product merchandising</note>
-                <note>Developed and maintained customer facing website</note>
-                <note>Setup CI pipeline to allow simultaneous development/deployment</note>
-                <note>Consolidated data to run analyses on Customer Acquisition Costs and Ad Spend</note>
+								<note>
+										<text>Created a monolithic app with Node, Postgres and Sequelize to sync inventory across multiple data sources</text>
+								</note>
+								<note>
+										<text>Developed tools to allow internal users to manage purchasing and product merchandising</text>
+								</note>
+								<note>
+										<text>Developed and maintained customer facing website</text>
+								</note>
+								<note>
+										<text>Setup CI pipeline to allow simultaneous development/deployment</text>
+								</note>
+								<note>
+										<text>Consolidated data to run analyses on Customer Acquisition Costs and Ad Spend</text>
+								</note>
             </notes>
         </job>
         <job>
@@ -96,10 +122,18 @@
 								</end-date>
             </duration>
             <notes>
-                <note>Configured and deployed client and server­side software for large restaurants chains including Panera Bread and Red Mango</note>
-                <note>Developed understanding of networking through hours of debugging LAN and Firewall issues</note>
-                <note>Managed projects working directly with directors and executives to design and deliver technical solutions to marketing and financial business requirements</note>
-                <note>Spearheaded software training working with corporate and franchise branch owners</note>
+								<note>
+										<text>Configured and deployed client and server­side software for large restaurants chains including Panera Bread and Red Mango</text>
+								</note>
+								<note>
+										<text>Developed understanding of networking through hours of debugging LAN and Firewall issues</text>
+								</note>
+								<note>
+										<text>Managed projects working directly with directors and executives to design and deliver technical solutions to marketing and financial business requirements</text>
+								</note>
+								<note>
+										<text>Spearheaded software training working with corporate and franchise branch owners</text>
+								</note>
             </notes>
         </job>
     </work-experience>
