@@ -40,7 +40,7 @@
 														</fo:inline>
 												</fo:block>
 										</fo:block-container>
-										<fo:block-container space-after="10px">
+										<fo:block-container space-after="20px">
 												<fo:block font-weight="bold">
 														<fo:inline>PROFILE</fo:inline>
 												</fo:block>
@@ -50,12 +50,12 @@
 														</fo:inline>
 												</fo:block>
 										</fo:block-container>
-										<fo:block-container space-after="10px">
+										<fo:block-container space-after="20px">
 												<fo:block font-weight="bold">
 														<fo:inline>PROFESSIONAL EXPERIENCE</fo:inline>
 												</fo:block>
 												<xsl:for-each select="resume/work-experience/job">
-														<fo:table space-after="5px">
+														<fo:table space-after="10px">
 																<fo:table-column column-width="75%"/>
 																<fo:table-column column-width="25%"/>
 																<fo:table-body>
@@ -119,7 +119,7 @@
 														</fo:table>
 												</xsl:for-each>
 										</fo:block-container>
-										<fo:block-container space-after="10px">
+										<fo:block-container space-after="20px">
 												<fo:block font-weight="bold">TECHNICAL SKILLS</fo:block>
 												<fo:table>
 														<fo:table-column column-width="30%"/>
@@ -152,7 +152,7 @@
 														</fo:table-body>
 												</fo:table>
 										</fo:block-container>
-										<fo:block-container space-after="10px">
+										<fo:block-container space-after="20px">
 												<fo:block font-weight="bold">EDUCATION</fo:block>
 												<fo:table>
 														<fo:table-column column-width="85%"/>
