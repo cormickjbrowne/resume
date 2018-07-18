@@ -36,7 +36,7 @@
 														</fo:inline>
 														<fo:inline space-start="5px" space-end="5px">&#183;</fo:inline>
 														<fo:inline>
-																<xsl:value-of select="resume/phone/number"/>
+																<xsl:value-of select="concat('(', substring(resume/phone/number, 1, 3), ') ', substring(resume/phone/number, 4, 3), '-', substring(resume/phone/number, 7, 4))"/>
 														</fo:inline>
 												</fo:block>
 										</fo:block-container>
