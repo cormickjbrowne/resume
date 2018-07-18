@@ -13,7 +13,7 @@
 						<name>Boston University</name>
 						<location>
 								<city>Boston</city>
-								<state>Massachusetts</state>
+								<state>MA</state>
 						</location>
 						<graduation-date>
 								<month>May</month>
@@ -31,7 +31,7 @@ remotely.</profile>
 								<name>1stdibs, Inc.</name>
 								<location>
 										<city>New York</city>
-										<state>New York</state>
+										<state>NY</state>
 								</location>
             </company>
 						<role>Frontend Developer</role>
@@ -70,7 +70,7 @@ remotely.</profile>
 								<name>Madison Plus Select Inc.</name>
 								<location>
 										<city>New York</city>
-										<state>New York</state>
+										<state>NY</state>
 								</location>
             </company>
 						<role>Web Developer/Operations Manager</role>
@@ -107,7 +107,7 @@ remotely.</profile>
                 <name>Paytronix Systems Inc.</name>
 								<location>
 										<city>Boston</city>
-										<state>Massachusetts</state>
+										<state>MA</state>
 								</location>
             </company>
             <role>Account/Project Manager</role>
