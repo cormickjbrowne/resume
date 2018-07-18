@@ -81,7 +81,22 @@
 																								<fo:inline>
 																										<xsl:value-of select="duration/start-date/year"/>
 																								</fo:inline>
-																						</fo:block>
+																								<fo:inline> - </fo:inline>
+																								<xsl:choose>
+																										<xsl:when test="duration/end-date">
+																												<fo:inline>
+																														<xsl:value-of select="duration/end-date/month"/>
+																												</fo:inline>
+																												<fo:inline>&#160;</fo:inline>
+																												<fo:inline>
+																														<xsl:value-of select="duration/end-date/year"/>
+																												</fo:inline>
+																										</xsl:when>
+																										<xsl:otherwise>
+																												<fo:inline>Present</fo:inline>
+																										</xsl:otherwise>
+																								</xsl:choose>
+																					</fo:block>
 																						<fo:block>
 																								<fo:inline>
 																										<xsl:value-of select="company/location/city"/>
@@ -161,10 +176,10 @@
 																<fo:table-row>
 																		<fo:table-cell number-columns-spanned="2">
 																				<fo:block>
-																						<fo:inline>
+																						<fo:inline font-weight="bold">
 																								<xsl:value-of select="resume/education/school/name"/>
 																						</fo:inline>
-																						<fo:inline>, </fo:inline>
+																						<fo:inline space-end="5px">, </fo:inline>
 																						<fo:inline>
 																								<xsl:value-of select="resume/education/school/location/city"/>
 																						</fo:inline>
