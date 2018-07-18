@@ -23,9 +23,37 @@
 						<major>Economics</major>
         </school>
     </education>
-		<profile>I’m a web developer with over four years experience working on ecommerce and loyalty applications. I know how to create apps and websites that are fast, responsive and SEO friendly. I’m looking for freelance, consulting or project based opportunities that will allow me to work
-remotely.</profile>
+		<profile>I am a New York based web developer with over three years of experience building ecommerce and SAAS applications. I just finished 8 months of traveling and freelancing, and I'm looking to join a well established company with a focus on tech.</profile>
     <work-experience>
+				<job>
+						<company>
+								<name>Muslim Will, Inc.</name>
+						</company>
+						<role>Freelance Web Developer</role>
+						<duration>
+								<start-date>
+										<month>Nov</month>
+										<year>2017</year>
+								</start-date>
+						</duration>
+						<notes>
+								<note>
+										<text>Created a web app for the online generation of Last Will and Testament documents</text>
+								</note>
+								<note>
+										<text>Built frontend with React and backend using NodeJS, Express, and Mongo</text>
+								</note>
+								<note>
+										<text>Ran all apps ran inside Docker containers for development and production environments</text>
+								</note>
+								<note>
+										<text>Responsible for all Sys Ops tasks including networking and deployment</text>
+								</note>
+								<note>
+										<text>Worked directly with client on requirements and timeline</text>
+								</note>
+						</notes>
+				</job>
         <job>
             <company>
 								<name>1stdibs, Inc.</name>
@@ -40,28 +68,23 @@ remotely.</profile>
 										<month>June</month>
 										<year>2016</year>
 								</start-date>
+								<end-date>
+										<month>Nov</month>
+										<year>2017</year>
+								</end-date>
             </duration>
             <notes>
 								<note>
-										<text>Built and developed several Single Page Apps built with React, Redux, Relay</text>
+										<text>Built, developed, and maintained several single page apps using React, Redux, and Relay</text>
 								</note>
 								<note>
-										<text>Added/extended queries and mutations to GraphQL server</text>
+										<text>Created/extended server and clientside GraphQL queries and mutations</text>
 								</note>
 								<note>
-										<text>Setup webpack for new apps with SASS, Babel, Flow, React Storybook, etc</text>
+										<text>Setup and configured new apps with Webpack, SASS, Babel, Flow, and many other tools</text>
 								</note>
 								<note>
-										<text>Migrated old apps from Backbone and JQuery to stack listed above</text>
-								</note>
-								<note>
-										<text>Implemented server­side rendering for apps with Redux and Relay</text>
-								</note>
-								<note>
-										<text>Maintained local nginx in docker container to route service requests in development</text>
-								</note>
-								<note>
-										<text>Managed several other apps including an inventory management system, a content management system, an analytics platform, pages with SalesForce integrations, and parts of our customer facing website</text>
+										<text>Wrote unit tests using Jest, Mocha, Jasmine, and Sinon</text>
 								</note>
             </notes>
         </job> 
@@ -86,19 +109,16 @@ remotely.</profile>
             </duration>
             <notes>
 								<note>
-										<text>Created a monolithic app with Node, Postgres and Sequelize to sync inventory across multiple data sources</text>
+										<text>Created an app to sync inventory across multiple platforms using NodeJS and Postgres</text>
 								</note>
 								<note>
-										<text>Developed tools to allow internal users to manage purchasing and product merchandising</text>
+										<text>Developed and maintained multiple customer facing Shopify stores</text>
 								</note>
 								<note>
-										<text>Developed and maintained customer facing website</text>
+										<text>Setup continuous deployment pipeline to manage ongoing theme development</text>
 								</note>
 								<note>
-										<text>Setup CI pipeline to allow simultaneous development/deployment</text>
-								</note>
-								<note>
-										<text>Consolidated data to run analyses on Customer Acquisition Costs and Ad Spend</text>
+										<text>Wrote scripts to consolidate data from multiple sources for analysis</text>
 								</note>
             </notes>
         </job>
@@ -123,33 +143,24 @@ remotely.</profile>
             </duration>
             <notes>
 								<note>
-										<text>Configured and deployed client and server­side software for large restaurants chains including Panera Bread and Red Mango</text>
+										<text>Configured and deployed software for large restaurants chains including Panera Bread</text>
 								</note>
 								<note>
-										<text>Developed understanding of networking through hours of debugging LAN and Firewall issues</text>
+										<text>Developed an understanding of computer networking by debugging LAN and Firewall issues</text>
 								</note>
 								<note>
-										<text>Managed projects working directly with directors and executives to design and deliver technical solutions to marketing and financial business requirements</text>
+										<text>Managed projects working directly with directors and executives on requirements</text>
 								</note>
 								<note>
-										<text>Spearheaded software training working with corporate and franchise branch owners</text>
+										<text>Ran software training for clients' managers and employees</text>
 								</note>
             </notes>
         </job>
     </work-experience>
     <technical-skills>
 				<skill-set>
-						<type>Launguages</type>
+						<type>Frontend</type>
 						<list>
-								<list-item>
-										<value>Javascript</value>
-								</list-item>
-								<list-item>
-										<value>Node</value>
-								</list-item>
-								<list-item>
-										<value>GraphQL</value>
-								</list-item>
 								<list-item>
 										<value>HTML</value>
 								</list-item>
@@ -157,22 +168,8 @@ remotely.</profile>
 										<value>CSS</value>
 								</list-item>
 								<list-item>
-										<value>SASS</value>
+										<value>Javascript</value>
 								</list-item>
-								<list-item>
-										<value>SQL</value>
-								</list-item>
-								<list-item>
-										<value>Git</value>
-								</list-item>
-								<list-item>
-										<value>BASH</value>
-								</list-item>
-						</list>
-				</skill-set>
-				<skill-set>
-						<type>Libraries</type>
-						<list>
 								<list-item>
 										<value>React</value>
 								</list-item>
@@ -183,13 +180,7 @@ remotely.</profile>
 										<value>Relay</value>
 								</list-item>
 								<list-item>
-										<value>Backbone</value>
-								</list-item>
-								<list-item>
 										<value>JQuery</value>
-								</list-item>
-								<list-item>
-										<value>Express</value>
 								</list-item>
 								<list-item>
 										<value>Bootstrap</value>
@@ -197,8 +188,34 @@ remotely.</profile>
 						</list>
 				</skill-set>
 				<skill-set>
-						<type>Build/Dev Tools</type>
+						<type>Backend</type>
 						<list>
+								<list-item>
+										<value>NodeJS</value>
+								</list-item>
+								<list-item>
+										<value>Express</value>
+								</list-item>
+								<list-item>
+										<value>GraphQL</value>
+								</list-item>
+								<list-item>
+										<value>Postgres</value>
+								</list-item>
+								<list-item>
+										<value>Mongo</value>
+								</list-item>
+						</list>
+				</skill-set>
+				<skill-set>
+						<type>Dev Tools</type>
+						<list>
+								<list-item>
+										<value>Git</value>
+								</list-item>
+								<list-item>
+										<value>BASH</value>
+								</list-item>
 								<list-item>
 										<value>Webpack</value>
 								</list-item>
@@ -210,6 +227,20 @@ remotely.</profile>
 								</list-item>
 								<list-item>
 										<value>Grunt</value>
+								</list-item>
+						</list>
+				</skill-set>
+				<skill-set>
+						<type>Infrastructure</type>
+						<list>
+								<list-item>
+										<value>Docker</value>
+								</list-item>
+								<list-item>
+										<value>Vagrant</value>
+								</list-item>
+								<list-item>
+										<value>Ngnix</value>
 								</list-item>
 						</list>
 				</skill-set>

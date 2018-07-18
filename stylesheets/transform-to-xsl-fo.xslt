@@ -97,39 +97,48 @@
 																										</xsl:otherwise>
 																								</xsl:choose>
 																					</fo:block>
-																						<fo:block>
-																								<fo:inline>
-																										<xsl:value-of select="company/location/city"/>
-																								</fo:inline>
-																								<fo:inline>, </fo:inline>
-																								<fo:inline>
-																										<xsl:value-of select="company/location/state"/>
-																								</fo:inline>
-																						</fo:block>
-																				</fo:table-cell>
+																					<fo:block>
+																							<xsl:choose>
+																									<xsl:when test="company/location">
+																											<fo:inline>
+																													<xsl:value-of select="company/location/city"/>
+																											</fo:inline>
+																											<fo:inline>, </fo:inline>
+																											<fo:inline>
+																													<xsl:value-of select="company/location/state"/>
+																											</fo:inline>
+																									</xsl:when>
+																									<xsl:otherwise>
+																											<fo:inline>Remote</fo:inline>
+																									</xsl:otherwise>
+																							</xsl:choose>
+																					</fo:block>
+																			</fo:table-cell>
 																		</fo:table-row>
-																		<fo:table-row>
-																				<fo:table-cell number-columns-spanned="2">
-																						<fo:list-block>
-																								<xsl:for-each select="notes/note">
-																										<fo:list-item>
-																												<fo:list-item-label start-indent="15px">
-																														<fo:block>
-																																<fo:inline>&#183;</fo:inline>
-																														</fo:block>
-																												</fo:list-item-label>
-																												<fo:list-item-body start-indent="25px">
-																														<fo:block>
-																																<fo:inline>
-																																		<xsl:value-of select="text"/>
-																																</fo:inline>
-																														</fo:block>
-																												</fo:list-item-body>
-																										</fo:list-item>
-																								</xsl:for-each>
-																						</fo:list-block>
-																				</fo:table-cell>
-																		</fo:table-row>
+																		<xsl:if test="notes">
+																				<fo:table-row>
+																						<fo:table-cell number-columns-spanned="2">
+																								<fo:list-block>
+																										<xsl:for-each select="notes/note">
+																												<fo:list-item>
+																														<fo:list-item-label start-indent="15px">
+																																<fo:block>
+																																		<fo:inline>&#183;</fo:inline>
+																																</fo:block>
+																														</fo:list-item-label>
+																														<fo:list-item-body start-indent="25px">
+																																<fo:block>
+																																		<fo:inline>
+																																				<xsl:value-of select="text"/>
+																																		</fo:inline>
+																																</fo:block>
+																														</fo:list-item-body>
+																												</fo:list-item>
+																										</xsl:for-each>
+																								</fo:list-block>
+																						</fo:table-cell>
+																				</fo:table-row>
+																		</xsl:if>
 																</fo:table-body>
 														</fo:table>
 												</xsl:for-each>

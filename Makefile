@@ -5,8 +5,8 @@ fo:
 	xsltproc -o output/resume.fo stylesheets/transform-to-xsl-fo.xslt resume.xml
 
 pdf:
-	fop -fo output/resume.fo -pdf output/resume.pdf
+	fop -fo output/resume.fo -pdf output/resume-cormick-browne.pdf
 
 all:
-	make fo && make pdf && open output/resume.pdf
+	make fo && make pdf && open output/resume-cormick-browne.pdf
 
