@@ -27,7 +27,7 @@
 		<work-experience>
 				<job>
 						<company>
-								<name>Muslim Will, Inc.</name>
+								<name>Muslim Will</name>
 						</company>
 						<role>Freelance Web Developer</role>
 						<duration>
@@ -56,7 +56,7 @@
 				</job>
 				<job>
 						<company>
-								<name>1stdibs, Inc.</name>
+								<name>1stdibs</name>
 								<location>
 										<city>New York</city>
 										<state>NY</state>
@@ -90,7 +90,7 @@
 				</job> 
 				<job>
 						<company>
-								<name>Madison Plus Select Inc.</name>
+								<name>Madison Plus Select</name>
 								<location>
 										<city>New York</city>
 										<state>NY</state>
@@ -124,7 +124,7 @@
 				</job>
 				<job>
 						<company>
-								<name>Paytronix Systems Inc.</name>
+								<name>Paytronix Systems</name>
 								<location>
 										<city>Boston</city>
 										<state>MA</state>
